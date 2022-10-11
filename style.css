@@ -184,13 +184,8 @@ Smartphone Portrait
 
 @media only screen and (max-width: 767px) {
   body {
-    /* background-image: linear-gradient(
-      rgb(18, 23, 37, 0.5) rgba(18, 23, 37, 1, 0.5)
-    );
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; */
-    background-image: none;
+    background: linear-gradient(rgba(18, 23, 37, 0.9), rgba(18, 23, 37, 0.9)),
+      url(./img/mobile/image-host.jpg) no-repeat center center/cover;
   }
 
   header {
