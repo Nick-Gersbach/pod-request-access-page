@@ -67,6 +67,10 @@ form {
   position: relative;
 }
 
+.mobile-company-logos-container {
+  display: none;
+}
+
 input {
   width: 427px;
   height: 56px;
@@ -165,5 +169,92 @@ Tablet View
   }
 }
 
+/* 
+
+
+
+
+
+Smartphone Portrait
+
+
+
+
+*/
+
 @media only screen and (max-width: 767px) {
+  body {
+    /* background-image: linear-gradient(
+      rgb(18, 23, 37, 0.5) rgba(18, 23, 37, 1, 0.5)
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    background-image: none;
+  }
+
+  header {
+    text-align: center;
+  }
+
+  .email-showcase-content-container {
+    width: 100%;
+    height: 100vh;
+    transform: translateY(0rem);
+    text-align: center;
+    background: none;
+  }
+
+  #email-showcase {
+    background-image: none;
+  }
+
+  .showcase-dots img {
+    display: none;
+  }
+
+  .email-showcase-content h1 {
+    font-size: 26px;
+    line-height: 38px;
+  }
+
+  .email-showcase-content p {
+    font-size: 15px;
+    line-height: 25px;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  input {
+    width: 100%;
+    height: 46px;
+  }
+
+  button {
+    width: 100%;
+    height: 46px;
+    position: static;
+    margin-top: 1rem;
+  }
+
+  .company-logos-container {
+    display: none;
+  }
+
+  .mobile-company-logos-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+
+  .mobile-company-logo img {
+    width: 85px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .mobile-company-logo img {
+    width: 75px;
+  }
 }
