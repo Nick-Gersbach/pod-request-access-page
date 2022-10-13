@@ -274,6 +274,10 @@ Smartphone Portrait
   p.error-msg {
     margin: 0.5rem 0rem 0.5rem 0rem;
   }
+
+  p.success-msg {
+    margin: 0.5rem 0rem 0.5rem 0rem;
+  }
 }
 
 @media only screen and (max-width: 320px) {
@@ -282,6 +286,9 @@ Smartphone Portrait
   }
 
   p.error-msg {
+    margin: 0.5rem 0rem 0.5rem 0rem;
+  }
+  p.success-msg {
     margin: 0.5rem 0rem 0.5rem 0rem;
   }
 }
