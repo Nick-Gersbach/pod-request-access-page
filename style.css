@@ -91,6 +91,18 @@ input:focus {
   outline: none;
 }
 
+p.error-msg {
+  margin: 0.5rem 0rem 0.5rem 2.4rem;
+  color: #fb3e3e;
+  font-weight: 700;
+  font-size: 12px;
+  display: none;
+}
+
+p.error-msg.show {
+  display: block;
+}
+
 button {
   width: 162px;
   height: 46px;
@@ -246,10 +258,18 @@ Smartphone Portrait
   .mobile-company-logo img {
     width: 85px;
   }
+
+  p.error-msg {
+    margin: 0.5rem 0rem 0.5rem 0rem;
+  }
 }
 
 @media only screen and (max-width: 320px) {
   .mobile-company-logo img {
     width: 75px;
+  }
+
+  p.error-msg {
+    margin: 0.5rem 0rem 0.5rem 0rem;
   }
 }
