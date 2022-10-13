@@ -141,6 +141,18 @@ button:hover {
   z-index: 2;
 }
 
+p.success-msg {
+  color: #54e6af;
+  margin: 0.5rem 0rem 0.5rem 2.4rem;
+  font-size: 12px;
+  font-weight: 700;
+  display: none;
+}
+
+p.success-msg.show {
+  display: block;
+}
+
 /* 
 
 
